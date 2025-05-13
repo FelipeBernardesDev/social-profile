@@ -72,7 +72,8 @@ body{
 
 .btn{
     background-color: #333333;
-    font-weight: 800;
+    font-size:  15px;
+    font-weight: 600;
     color: #fff;
     padding: 15px 50px;
     width: 350px;
@@ -80,4 +81,10 @@ body{
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #c5f82a;
+    color: #000000;
 }
